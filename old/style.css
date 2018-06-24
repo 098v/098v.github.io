@@ -12,11 +12,10 @@
 }
 
 .jumbotron {
-	background-image: url('http://i.imgur.com/3k1pThT.jpg');
+	background-image:url('http://i.imgur.com/3k1pThT.jpg');
 	max-width: 100%;
 	height: 500px;
-	width: auto\9;
-	/* ie8 */
+	width: auto\9; /* ie8 */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -24,7 +23,7 @@
 
 .jumbotron .container {
 	position: relative;
-	top: 40px;
+	top:40px;
 }
 
 .jumbotron h1 {
@@ -268,7 +267,7 @@
 	.background-color: #efefef;
 }
 
-.gallery {
+.gallery{
 	width: 640px;
 	position: relative;
 	padding-top: 320px;
@@ -276,7 +275,7 @@
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
-.gallery>img {
+.gallery>img{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -296,7 +295,7 @@
 	opacity: 0.6;
 }
 
-.gallery label img {
+.gallery label img{
 	display: block;
 }
 
@@ -305,7 +304,7 @@
 	opacity: 1;
 }
 
-.gallery input[name='switch']~img {
+.gallery input[name='switch'] ~ img {
 	opacity: 0;
 	transform: scale(1.1);
 }
@@ -326,10 +325,9 @@
 }
 
 .flip a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 	url("http://i.imgur.com/3rNrS6O.jpg");
 	background-size: 0, cover;
 	transform-style: preserve-3d;
@@ -342,41 +340,25 @@
 }
 
 .flip a:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 36px;
-	background: inherit;
-	background-size: cover, cover;
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
 	background-position: bottom;
-	transform: rotateX(90deg);
-	transform-origin: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
 }
 
 .flip a span {
 	font-family: 'Lato', sans-serif;
-	color: white;
-	text-transform: uppercase;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	font: 'Lato', sans-serif;
-	text-align: center;
-	transform: rotateX(-89.99deg);
-	transform-origin: top;
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: 'Lato', sans-serif; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
 
 .flip a:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
 	transition: all 0.5s;
@@ -402,10 +384,9 @@
 }
 
 .flip2 a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 	url("http://i.imgur.com/3k1pThT.jpg");
 	background-size: 0, cover;
 	transform-style: preserve-3d;
@@ -418,40 +399,24 @@
 }
 
 .flip2 a:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 36px;
-	background: inherit;
-	background-size: cover, cover;
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
 	background-position: bottom;
-	transform: rotateX(90deg);
-	transform-origin: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
 }
 
 .flip2 a span {
-	color: white;
-	text-transform: uppercase;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	font: 'Lato', sans-serif;
-	text-align: center;
-	transform: rotateX(-89.99deg);
-	transform-origin: top;
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: 'Lato', sans-serif; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
 
 .flip2 a:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
 	transition: all 0.5s;
@@ -477,10 +442,9 @@
 }
 
 .flip3 a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 	url("http://i.imgur.com/S89zVKM.jpg");
 	background-size: 0, cover;
 	transform-style: preserve-3d;
@@ -493,40 +457,24 @@
 }
 
 .flip3 a:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 36px;
-	background: inherit;
-	background-size: cover, cover;
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
 	background-position: bottom;
-	transform: rotateX(90deg);
-	transform-origin: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
 }
 
 .flip3 a span {
-	color: white;
-	text-transform: uppercase;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	font: 'Lato', sans-serif;
-	text-align: center;
-	transform: rotateX(-89.99deg);
-	transform-origin: top;
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: 'Lato', sans-serif; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
 
 .flip3 a:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
 	transition: all 0.5s;
@@ -552,10 +500,9 @@
 }
 
 .flip4 a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 	url("http://i.imgur.com/zpVBgCr.png");
 	background-size: 0, cover;
 	transform-style: preserve-3d;
@@ -568,40 +515,24 @@
 }
 
 .flip4 a:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 36px;
-	background: inherit;
-	background-size: cover, cover;
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
 	background-position: bottom;
-	transform: rotateX(90deg);
-	transform-origin: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
 }
 
 .flip4 a span {
-	color: white;
-	text-transform: uppercase;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	font: 'Lato', sans-serif;
-	text-align: center;
-	transform: rotateX(-89.99deg);
-	transform-origin: top;
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: 'Lato', sans-serif; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
 
 .flip4 a:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
 	transition: all 0.5s;
@@ -626,10 +557,9 @@
 }
 
 .flip5 a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	display: block; width: 100%; height: 100%;
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 	url("http://i.imgur.com/UzvOTKy.png");
 	background-size: 0, cover;
 	transform-style: preserve-3d;
@@ -642,40 +572,24 @@
 }
 
 .flip5 a:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 36px;
-	background: inherit;
-	background-size: cover, cover;
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	background: inherit; background-size: cover, cover;
 	background-position: bottom;
-	transform: rotateX(90deg);
-	transform-origin: bottom;
+	transform: rotateX(90deg); transform-origin: bottom;
 }
 
 .flip5 a span {
-	color: white;
-	text-transform: uppercase;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	font: 'Lato', sans-serif;
-	text-align: center;
-	transform: rotateX(-89.99deg);
-	transform-origin: top;
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: 'Lato', sans-serif; text-align: center;
+	transform: rotateX(-89.99deg); transform-origin: top;
 	z-index: 1;
 }
 
 .flip5 a:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
 	transition: all 0.5s;
