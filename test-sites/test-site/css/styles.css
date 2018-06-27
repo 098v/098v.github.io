@@ -6,17 +6,13 @@
 	background: url('../img/bgTEST.jpg') center / cover;
 }
 
+.mdl-layout__header-row {
+	background: white;
+}
+
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
 	color: #333333;
-}
-
-.mdl-layout__header {
-	color: #333333;
-}
-
-.mdl-layout__header.scroll {
-	background-color: #333333;
 }
 
 .mdl-navigation__link {
@@ -33,9 +29,22 @@
 	color: #333333;
 }
 
+.whiteBG {
+	background-color: white;
+	width: auto;
+	padding: 1px 20px 50px 20px;
+	position: relative;
+	margin-top: 11%;
+}
+
 .bgTEST {
-	padding-top: 170px;
-	padding-bottom: 155px;
+	padding-top: 145px;
+	padding-bottom: 145px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -999;
 }
 
 
@@ -57,7 +66,8 @@
 	min-height: 32px;
 	color: #fff;
 	font-weight: 600;
-	letter-spacing: 3px
+	letter-spacing: 3px;
+	line-height: 1em;
 }
 
 .h4,
