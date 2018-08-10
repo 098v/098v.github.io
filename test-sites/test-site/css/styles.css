@@ -1,5 +1,5 @@
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .demo-layout-transparent {
@@ -61,6 +61,7 @@
 }
 
 .title {
+	font-family: 'Roboto Slab', serif;
 	margin-top: 30px;
 	/*margin-bottom: 25px;*/
 	min-height: 32px;
