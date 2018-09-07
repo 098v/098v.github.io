@@ -1,0 +1,128 @@
+* {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.comingSoon {
+	z-index: 999;
+	position: relative;
+	height: 100%;
+	width: 95%;
+	top: 15em;
+	left: 2em;
+}
+
+.comingSoon h1 {
+	font-weight: 700;
+	color: #efefef;
+	font-size: 3em;
+	margin-bottom: 0.6em;
+	margin: 0 0 0.6em 0;
+}
+
+.comingSoon p {
+	font-size: 1.25em;
+	color: #c9cbca;
+	width: 45%;
+	line-height: 1.2em;
+	margin: 0 0 1.5em 0;
+}
+
+.comingSoon a {
+	background-color: #1cb495;
+	border-radius: 6px;
+	border: 0;
+	color: #efefef;
+	display: inline-block;
+	font-weight: 700;
+	height: 2.8em;
+	line-height: 2.75em;
+	padding: 0 1.125em;
+	margin-right: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.comingSoon a:hover {
+	background-color: #1fcaa7;
+}
+
+.footer {
+	position: absolute;
+	bottom: 2em;
+	left: 0;
+	display: inline-block;
+	color: #efefef;
+	opacity: 0.5;
+	-moz-transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.footer:hover {
+	opacity: 1;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #c9cbca;
+	-moz-transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.footer .icons {
+	margin: 0 0 0.5em 0;
+}
+
+.icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+	font-size: 1.125em;
+}
+
+.icons a {
+	-moz-transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.icons a:hover{
+	color: #1fcaa7;
+}
+
+@media screen and (max-width: 480px) {
+	.comingSoon {
+		top: 2em;
+	}
+
+	.comingSoon h1 {
+		font-size: 2em;
+	}
+
+	.comingSoon p {
+		width: 85%;
+		font-size: 1.125em;
+		line-height: 1.25em;
+	}
+
+	.comingSoon a {
+		width: 72%;
+		margin-bottom: 20px;
+	}
+
+	.footer {
+		bottom: 0.5em;
+	}
+}

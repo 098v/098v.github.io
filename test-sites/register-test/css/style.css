@@ -1,0 +1,61 @@
+html,
+body,
+header {
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fixed-top {
+	top: 15px;
+}
+
+.navbar a {
+	color: rgba(30, 30, 30, .6) !important;
+}
+
+header {
+	background: url('../images/bg.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.9);
+	position: relative;
+	top: 5%;
+}
+
+.md-form input {
+	border: none;
+	border-bottom: 1px solid rgba(30, 30, 30, 0.1);
+	border-radius: 0;
+	outline: none !important;
+	transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	background-color: transparent;
+	box-sizing: content-box;
+	margin-top: 25px;
+}
+
+.form-control:focus {
+	color: #495057;
+	background-color: transparent !important;
+	border-bottom: 2px solid #A3A8F0 !important;
+	outline: none !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+.row.pb-4.d-flex.justify-content-center.mb-4 {
+	padding-top: 2em;
+}
+
+.btn {
+	padding: 15px 50px;
+	background-image: linear-gradient( 135deg, #BCA7D5 10%, #A3A8F0 100%);
+	border: none;
+	border-radius: 100px;
+	color: #efefef;
+}
