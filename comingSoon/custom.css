@@ -104,7 +104,11 @@
 
 @media screen and (max-width: 480px) {
 	.comingSoon {
+<<<<<<< HEAD
 		top: 2em;
+=======
+		top: 1em;
+>>>>>>> 5b773242ef110a177348f44abe52e8500d5c0351
 	}
 
 	.comingSoon h1 {

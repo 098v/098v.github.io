@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .altInside {
 	width: 95%;
 	text-align: center;
@@ -11,3 +12,14 @@
 .gallery ul li {
 	width: 45%;
 }
+=======
+.altInside {
+	width: 95%;
+	text-align: center;
+}
+
+.blurbBox, .startTeam, .blurbBoxes {
+	display: inline-block;
+	margin: 0 auto;
+}
+>>>>>>> 5b773242ef110a177348f44abe52e8500d5c0351

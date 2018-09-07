@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .circleSep {
 	bottom: 6.1em;
 }
@@ -79,4 +80,88 @@
 
 .gallery ul li {
 	width: 100%;
+=======
+.circleSep {
+	bottom: 6.1em;
+}
+
+.circleSep3 {
+	bottom: 6.1em;
+}
+
+.circleSep4 {
+	top: 6.5em;
+}
+
+.aboutUs section {
+	display: block;
+}
+
+.circImg {
+	width: 95%;
+}
+
+.circImg img{
+	width: 100%;
+}
+
+.circTxt {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -3em;
+	margin-bottom: 3em;
+}
+
+.circTxt p {
+	margin-bottom: 5em;
+}
+
+.aboutUs section:nth-child(2n) .circImg {
+	margin: 0 auto;
+}
+
+.aboutUs section:nth-child(2n) .circTxt {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -1em;
+}
+
+.important p {
+	margin: 0 auto;
+	margin-bottom: 5em;
+}
+
+.altInside {
+	display: block;
+	margin: 0 auto;
+}
+
+.blurbBox {
+	margin: 0 auto;
+	margin-bottom: 5em;
+}
+
+.blurb {
+	width: auto;
+}
+
+.blurbs {
+	width: auto;
+}
+
+.blurbBoxes {
+	margin-right: 0;
+	margin-bottom: 10em;
+}
+
+.blurb,
+.blurbs {
+	text-align: center;
+}
+
+.hovereffect {
+	width: 100%;
+	height: 100%;
+>>>>>>> 5b773242ef110a177348f44abe52e8500d5c0351
 }
