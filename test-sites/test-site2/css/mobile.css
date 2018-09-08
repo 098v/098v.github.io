@@ -16,6 +16,7 @@
 
 .circImg {
 	width: 95%;
+	margin-bottom: 5em;
 }
 
 .circImg img{
@@ -56,7 +57,7 @@
 
 .blurbBox {
 	margin: 0 auto;
-	margin-bottom: 5em;
+	margin-bottom: 0;
 }
 
 .blurb {
