@@ -16,7 +16,6 @@
 
 .circImg {
 	width: 95%;
-	margin-bottom: 5em;
 }
 
 .circImg img{
@@ -57,7 +56,7 @@
 
 .blurbBox {
 	margin: 0 auto;
-	margin-bottom: 0;
+	margin-bottom: 5em;
 }
 
 .blurb {
@@ -78,6 +77,7 @@
 	text-align: center;
 }
 
-.gallery ul li {
+.hovereffect {
 	width: 100%;
+	height: 100%;
 }
