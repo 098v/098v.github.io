@@ -242,6 +242,10 @@ a.navbar-item:hover,
 	box-sizing: border-box;
 }
 
+.galClick {
+	cursor: pointer;
+}
+
 /* The Modal (background) */
 .modal {
 	display: none;
