@@ -6,3 +6,16 @@
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
+
+.contactCell {
+	float: left;
+}
+
+.copyCell {
+	text-align: left;
+	float: left;
+}
+
+.socialCell {
+	float: left;
+}

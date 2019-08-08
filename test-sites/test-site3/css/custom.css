@@ -441,7 +441,7 @@ a.navbar-item:hover {
 	clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
-.slide h2{
+.slide h2 {
 	position: relative;
 }
 
@@ -509,4 +509,44 @@ hr {
 	-moz-box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
 	box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
 	border: none;
+}
+
+/* Material Icon Sizes */
+.material-icons.md-18 {
+	font-size: 18px;
+}
+
+.material-icons.md-24 {
+	font-size: 24px;
+}
+
+.material-icons.md-36 {
+	font-size: 36px;
+}
+
+.material-icons.md-48 {
+	font-size: 48px;
+}
+
+/* Black Icons on Bright Background */
+.material-icons.md-dark {
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+	color: rgba(0, 0, 0, 0.26);
+}
+
+/* White Icons on Dark Background */
+.material-icons.md-light {
+	color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+/* Purple Colour for Icons */
+.purpleIco {
+	color: #736EFE;
 }
