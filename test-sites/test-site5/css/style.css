@@ -155,8 +155,8 @@ a.navbar-item:hover,
 	}
 
 	40% {
-		-moz-transform: translateY(-30px);
-		transform: translateY(-30px);
+		-moz-transform: translateY(-20px);
+		transform: translateY(-20px);
 	}
 
 	60% {
@@ -177,8 +177,8 @@ a.navbar-item:hover,
 	}
 
 	40% {
-		-webkit-transform: translateY(-30px);
-		transform: translateY(-30px);
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
 	}
 
 	60% {
@@ -201,10 +201,10 @@ a.navbar-item:hover,
 	}
 
 	40% {
-		-moz-transform: translateY(-30px);
-		-ms-transform: translateY(-30px);
-		-webkit-transform: translateY(-30px);
-		transform: translateY(-30px);
+		-moz-transform: translateY(-20px);
+		-ms-transform: translateY(-20px);
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
 	}
 
 	60% {
@@ -222,9 +222,6 @@ a.navbar-item:hover,
 	margin-left: -20px;
 	width: 40px;
 	height: 0;
-	/*change with size of arrow to make sit on bottom */
-	/*   background-image: url(); */
-	/*   background-size: contain; */
 }
 
 .bounce {
@@ -338,4 +335,45 @@ a.navbar-item:hover,
 .footer {
 	opacity: 0.4;
 	padding: 0;
+}
+
+/* About */
+/* Profile */
+.aboutHero {
+	background-color: #ffffff;
+	background-image: url('../img/heroBG.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.profile img {
+	border-radius: 100%;
+	filter: grayscale(100%);
+}
+
+.profile {
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+}
+
+h1.aboutTitle {
+	position: relative;
+	z-index: 1;
+	color: white;
+	text-align: center;
+	font-size: 5rem;
+	line-height: 5rem;
+	max-width: 35rem;
+	margin: 0 auto;
+}
+
+.experience {
+	margin-top: 20vh;
+}
+
+.expList {
+	margin-top: 5vh;
 }
