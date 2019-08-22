@@ -377,3 +377,19 @@ h1.aboutTitle {
 .expList {
 	margin-top: 5vh;
 }
+
+.contactForm {
+	padding: 0 5%;
+}
+
+.submit {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	height: 40px;
+	line-height: 15px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	text-transform: uppercase;
+	border: 0;
+}
