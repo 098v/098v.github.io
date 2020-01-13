@@ -1,0 +1,72 @@
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="098v.github.io" resolutions="1x" timestamp="1464411086850">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="master_a-master.css" crc="473331884" ref="index"/>
+    <file name="index.css" crc="3786138903" ref="index"/>
+    <file name="iefonts_index.css" crc="4131594003" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
+    <file name="museutils.js" crc="3790713428" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3918880840" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.watch.js" crc="4244854265" ref="index"/>
+    <file name="webpro.js" crc="329496574" ref="index"/>
+    <file name="musewpslideshow.js" crc="394033048" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4265131668" ref="index"/>
+    <file name="touchswipe.js" crc="497316881" ref="index"/>
+    <file name="form_check.php" crc="3805695515" ref="index"/>
+    <file name="form_throttle.php" crc="3802629389" ref="index"/>
+    <file name="form_process.php" crc="54267062" ref="index"/>
+    <file name="form-u540.php" crc="336756574" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4219894366" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="banner-u329-fr.png" crc="464067729" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="me-ieu854-fr.png" crc="80736428" ref="index"/>
+    <file name="me.jpg" crc="180662766" ref="index"/>
+    <file name="fb.png" crc="4059703172" seo="true" ref="index"/>
+    <file name="twit.png" crc="4208751128" ref="index"/>
+    <file name="twit-u951-r-fr.png" crc="478407957" ref="index"/>
+    <file name="yt.png" crc="365594483" ref="index"/>
+    <file name="yt-u983-r-fr.png" crc="3898570868" ref="index"/>
+    <file name="flickr.png" crc="522362060" ref="index"/>
+    <file name="flickr-u986-r-fr.png" crc="4279493707" ref="index"/>
+    <file name="git.png" crc="25848192" ref="index"/>
+    <file name="git-u992-r-fr.png" crc="248665047" ref="index"/>
+    <file name="bedroom-u1285-fr.png" crc="4291911320" ref="index"/>
+    <file name="project.png" crc="3872670627" seo="true" ref="index"/>
+    <file name="people.png" crc="114434733" seo="true" ref="index"/>
+    <file name="rocket.png" crc="4180677487" seo="true" ref="index"/>
+    <file name="coffee.png" crc="3825738703" seo="true" ref="index"/>
+    <file name="banner1116x628.jpg" crc="4144514756" seo="true" ref="index"/>
+    <file name="bedroom.jpg" crc="4065744283" seo="true" ref="index"/>
+    <file name="bfizz.jpg" crc="39143851" seo="true" ref="index"/>
+    <file name="cloudcon.jpg" crc="3966043381" seo="true" ref="index"/>
+    <file name="crowcircle.jpg" crc="3909237327" seo="true" ref="index"/>
+    <file name="iphone.png" crc="290537300" seo="true" ref="index"/>
+    <file name="login.png" crc="238211879" seo="true" ref="index"/>
+    <file name="logos.jpg" crc="192708270" seo="true" ref="index"/>
+    <file name="magad.jpg" crc="90598303" seo="true" ref="index"/>
+    <file name="banner-crop-u1325.jpg" crc="298767257" ref="index"/>
+    <file name="bedroom-crop-u1542.jpg" crc="320311403" ref="index"/>
+    <file name="bfizz407x280.jpg" crc="4135415971" seo="true" ref="index"/>
+    <file name="cloudcon-crop-u1582.jpg" crc="3885801990" ref="index"/>
+    <file name="crowcircle-crop-u1602.jpg" crc="523243127" ref="index"/>
+    <file name="iphone-crop-u1622.png" crc="4010371078" ref="index"/>
+    <file name="login374x281.png" crc="4268657222" seo="true" ref="index"/>
+    <file name="logos407x280.jpg" crc="4137606184" seo="true" ref="index"/>
+    <file name="magad-crop-u1682.jpg" crc="4119189317" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="u560-17.png" crc="36715873" ref="index"/>
+    <file name="u560-17-r.png" crc="3906977992" ref="index"/>
+    <file name="u560-17-m.png" crc="3906977992" ref="index"/>
+    <file name="u560-17-fs.png" crc="4181198173" ref="index"/>
+    <file name="map.png" crc="4026280803" ref="index"/>
+    <file name="phone.png" crc="3839930702" ref="index"/>
+    <file name="mail.png" crc="488486816" ref="index"/>
+  </folder>
+  <file name="index.html" crc="273805697" seo="true" mt="1464411000565" redirect="true"/>
+</manifest>
