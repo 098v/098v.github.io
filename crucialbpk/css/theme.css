@@ -1,0 +1,750 @@
+/*------------------------------------------------------------------
+
+[Table of Contents]
+1. Body
+2. Typography
+3. Header
+4. Section
+5. Giveaway Form
+
+/*------------------------------------------------------------------
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900&display=swap');
+
+html,
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    transition: all 0.3s cubic-bezier(.645, .045, .355, 1);
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #101010;
+}
+
+/* Links */
+a,
+a:hover {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+a:hover,
+a:hover:hover {
+    color: #1DA1F2;
+}
+
+/* Header Text */
+h1,
+.uk-h1,
+h2,
+.uk-h2,
+h3,
+.uk-h3,
+h4,
+.uk-h4,
+h5,
+.uk-h5 {
+    color: #efefef;
+}
+
+/* ===========================Typography=========================== */
+/* Body Text */
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #192734;
+}
+
+/* Header Text */
+h1,
+.uk-h1,
+h2,
+.uk-h2,
+h3,
+.uk-h3,
+h4,
+.uk-h4,
+h5,
+.uk-h5,
+h6,
+.uk-h6 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1,
+.uk-h1 {
+    font-size: 48px;
+}
+
+h2,
+.uk-h2 {
+    font-size: 36px;
+}
+
+h3,
+.uk-h3 {
+    font-size: 30px;
+}
+
+h4,
+.uk-h4 {
+    font-size: 24px;
+}
+
+h5,
+.uk-h5 {
+    font-size: 20px;
+}
+
+h6,
+.uk-h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Hero Header Text */
+
+.uk-heading-hero {
+    font-size: 50px;
+}
+
+/* ===========================Background=========================== */
+.omWrapper {
+    background-image: url('/img/bg.jpg');
+}
+
+/* ===========================Header=========================== */
+.omHeader {
+    display: block;
+    position: relative;
+}
+
+.omHeader .omInner {
+    height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.omHeader .omInner .omNavbar {
+    display: none;
+}
+
+.omHeader .omInner .omLogo {
+    width: 150px;
+}
+
+.omHeader .omInner .omLogo img {
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    color: #fff;
+    transition: color ease-in-out 0.2s;
+}
+
+
+.omHeader .omInner .omMenu {
+    display: none;
+}
+
+.omHeader .omInner .omMenu a {
+    font-size: 16px;
+}
+
+.omHeader .omInner .omNavToggle {
+    width: 35px;
+    height: 19px;
+    display: inline-flex;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.omHeader .omInner .omNavToggle>span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222222;
+}
+
+.omHeader .omInner .omNavToggle>*+span {
+    margin-top: 5px;
+}
+
+.omHeader.uk-active {
+    background-color: #fff;
+}
+
+.omHeader.uk-active .omInner {
+    height: 90px;
+}
+
+.omHeader.omDark .omInner .omLogo h3 {
+    background-position-y: -28px;
+}
+
+.omHeader.omDark .omInner a {
+    color: #efefef;
+}
+
+.omHeader.omDark .omInner .omMenu a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 0.75em;
+    width: 100%;
+    border-bottom: 2px solid;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    color: #1DA1F2;
+}
+
+.omHeader.omDark .omInner .omMenu a:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
+}
+
+.omHeader.omDark .omInner .omNavToggle>span {
+    background-color: #fff;
+}
+
+.omHeader.omDark.uk-active {
+    background-color: #222222;
+    z-index: 9999;
+}
+
+/* Mobile Navbar */
+.mobiNav {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.mobiNav .omMenu {
+    padding: 60px 20px;
+}
+
+.mobiNav .omMenu>ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mobiNav .omMenu>ul>li>a {
+    -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.mobiNav .omMenu>ul>li>a:hover {
+    color: #1DA1F2;
+}
+
+.mobiNav .omMenu>ul>*+li {
+    margin-top: 2rem;
+}
+
+.uk-offcanvas {
+    z-index: 10000;
+}
+
+.uk-offcanvas-bar {
+    width: 100vw;
+    background-color: #222222;
+    -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+
+.uk-offcanvas-overlay.uk-open::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+.uk-button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1 !important;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: .9rem;
+    height: 50px;
+    padding-top: 4px;
+    border-width: 2px;
+}
+
+.uk-button.uk-button-link {
+    color: #1DA1F2;
+}
+
+.uk-button.uk-button-small {
+    font-size: .8rem;
+    height: 40px;
+}
+
+.uk-button.uk-button-large {
+    font-size: 1rem;
+    height: 60px;
+}
+
+.uk-button.uk-button-primary {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+    color: #FFFFFF !important;
+}
+
+.uk-button.uk-button-primary:hover {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.uk-button.uk-button-primary:focus {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+/* Default Button */
+.uk-button.uk-button-default {
+    border-color: #1DA1F2 !important;
+    color: #efefef;
+    position: relative;
+    z-index: 1;
+}
+
+.uk-button.uk-button-default:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: #1DA1F2;
+    -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+    transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.uk-button.uk-button-default:hover,
+.uk-button.uk-button-default:focus {
+    color: #efefef !important;
+    border-color: #1DA1F2;
+}
+
+.uk-button.uk-button-default:hover:after,
+.uk-button.uk-button-default:focus:after {
+    height: 100%;
+}
+
+.uk-button.uk-button-default:hover {
+    background-color: #1DA1F2;
+    color: #efefef;
+}
+
+/* ===========================Section=========================== */
+/* Hero */
+.omHeroFull {
+    height: 100vh;
+}
+
+.omHero .omTitle {
+    font-weight: 900;
+    /* background: linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+}
+
+.omSpacing {
+    letter-spacing: 2px;
+}
+
+.omArrow {
+    text-align: center;
+    margin: 8% 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+}
+
+.omBounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.uk-grid p.omDescription,
+.uk-text-center p.omDescription,
+.omSocials p.omDescription,
+p.omDescription {
+    font-weight: 300;
+    color: #717171;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.omItem {
+    z-index: 999;
+    border-radius: 4px;
+    position: relative;
+    background: #233648;
+    border: solid #385876 1px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 280px;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.omItem:hover {
+    -webkit-box-shadow: 0 1px 30px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px 1px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.omItem .uk-grid {
+    margin-left: 0;
+}
+
+.omRefAm {
+    border-radius: 4px;
+    background: #233648;
+    border: solid #385876 1px;
+    text-align: center;
+    font-size: 14px;
+    width: 115px;
+    margin: 0 auto;
+    padding: 10px 0 !important;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.omVisit {
+    border-radius: 4px;
+    background: #233648;
+    border: solid #385876 1px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 0 !important;
+}
+
+.omLink:hover {
+    color: #fff !important;
+}
+
+.omSiteBox {
+    padding: 10px 8px;
+}
+
+.omHr {
+    width: 150px;
+    margin: 0 auto;
+    border-top: 1px solid #2e4760;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.omHr:hover {
+    border-color: #efefef;
+}
+
+.omItem:hover>.omInner .omHr,
+.omItem.uk-active>.omInner .omHr {
+    border-color: #ffffff;
+}
+
+.omFooter {
+    background: #222222;
+    padding: 20px 0;
+}
+
+.omFooterP {
+    font-size: 12px;
+    color: #717171;
+    font-weight: 700;
+}
+
+/* ===========================Respnsive Shit=========================== */
+@media (min-width: 320px) {
+    .omHero .omTitle {
+        margin-top: 3.5em;
+        width: 300px;
+        font-size: 48px;
+    }
+
+    .omItem {
+        width: 100%;
+    }
+
+    .omFooter *+.uk-grid-margin,
+    .omFooter .uk-grid+.uk-grid,
+    .omFooter .uk-grid>.uk-grid-margin {
+        margin: 15px 0 0;
+    }
+
+    .uk-text-right .omFooterP {
+        text-align: left;
+    }
+}
+
+@media (min-width: 640px) {
+
+    /* Mobi Nav */
+    .mobiNav .omMenu {
+        padding: 60px;
+    }
+
+    .mobiNav .omMenu>ul>li>a {
+        font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .omHero {
+        background-position: right;
+    }
+
+    .omHero .omTitle {
+        margin-top: 3.5em;
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .omItem {
+        width: 100%;
+    }
+
+    .omRefAm {
+        width: 235px;
+        padding: 15px 0 !important;
+    }
+
+    .uk-text-right .omFooterP {
+        text-align: right;
+    }
+}
+
+@media (min-width: 960px) {
+
+    /* Header */
+    .omHeader {
+        height: 125px;
+        display: block;
+    }
+
+    .omHeader .omInner {
+        height: 170px;
+    }
+
+    .omHeader .omInner .omLogo {
+        width: 170px;
+    }
+
+    .omHeader .omInner .omLogo h3 {
+        height: 32px;
+    }
+
+    .omHero .omTitle {
+        margin-top: 1em;
+    }
+
+    .omHeader .omInner .omNavbar {
+        display: flex;
+        font-weight: bold;
+        letter-spacing: -.02em;
+        line-height: 1;
+    }
+
+    .omHeader .omInner .omNavbar>*+* {
+        margin-left: 40px;
+    }
+
+    .omHeader .omInner .omNavbar .omMenu {
+        display: block;
+        position: relative;
+    }
+
+    .omHeader .omInner .omNavbar .omMenu>ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .omHeader .omInner .omNavbar .omMenu>ul>*+li {
+        margin-left: 2.4rem;
+    }
+
+    .omHeader .omInner .omNavbar .omMenu>ul>li {
+        position: relative;
+    }
+
+    .omHeader .omInner .omNavToggle {
+        display: none;
+    }
+
+    .omHeader.uk-active {
+        background-color: #FFFFFF;
+        height: 100px;
+    }
+
+    .omHeader.uk-active .omInner {
+        height: 100px;
+    }
+
+    .omHeader.omDark .omInner .omLogo h3 {
+        background-position-y: -32px;
+    }
+
+    body .omHero .omHeader .omInner .omLogo h3 {
+        background-position-y: -32px;
+    }
+
+    /* Section: Global */
+    .omSectInner .omTitle .omInner {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .omSectInner .omTitle .omInner .right {
+        margin-top: 0;
+    }
+
+    .omSectInner .omTitle .omInner .omTitle {
+        font-size: 48px;
+    }
+
+    /* Section - Services */
+    .omItems.omItem>.inner {
+        z-index: 1;
+    }
+
+    .omItems.omItem:last-child:before {
+        content: "";
+        background-color: #1DA1F2;
+        height: 70px;
+        width: calc(100% - 10px);
+        position: absolute;
+        bottom: -20px;
+        z-index: 0;
+    }
+
+    /* Utitlites */
+    .uk-heading-hero {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .omAlignCenter .fmProfile {
+        margin-top: -89px;
+    }
+
+    .omHero .omTitle {
+        margin-top: 2.5em;
+        font-size: 80px
+    }
+
+    .omRefAm {
+        width: 115px;
+        padding: 10px 0 !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    /* Section: Hero */
+    .omHero {
+        background-position: 70%;
+    }
+
+    /* Section: Features Boxes */
+    .omItem>.omItems>.omInner {
+        padding: 60px 40px;
+    }
+
+    .omItem>.omItems>.omInner .omTitle {
+        font-size: 24px;
+        margin: 60px 0 5px 0;
+    }
+}
+
+@media only screen and (max-width: 1599px) and (min-width:: 1200px) {
+    .omItem {
+        padding: 30px 28px;
+    }
+}
+
+.wm {
+    position: fixed;
+    bottom: 5px;
+    left: -15px;
+    opacity: 0.5;
+    z-index: 9999;
+    color: #fff;
+}

@@ -1,0 +1,31 @@
+.info {
+	padding: 80px 0 80px;
+}
+
+.footSpacing {
+	min-height: 56px;
+	padding-top: 10px;
+	padding-left: 70px;
+}
+
+i.layout-2 {
+	background-color: #efefef;
+	color: #151515;
+	font-size: 18px;
+	top: 6px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.footSpacing h4 {
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	letter-spacing: 0.2em;
+	margin: 0 0 10px;
+}
+
+.description {
+	margin-top: 3px;
+}

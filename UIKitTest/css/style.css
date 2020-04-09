@@ -1,0 +1,150 @@
+/*=============TODO============*/
+/*    CHANGE COMMENTS LATER    */
+/* TEST DIFFERENT SOCIAL ICONS */
+/*=============TODO============*/
+body {
+	display: block;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	line-height: 1.7;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+/* Nav - Sidebar */
+.header-container.om-header-sidebar {
+	width: 270px;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	background-color: #333333;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px;
+	border-color: transparent;
+}
+
+/* Nav - Sidebar - Top */
+.om-header.om-header-sidebar.om-logo {
+	padding: 0;
+}
+
+/* Nav - Sidebar - Top - Logo */
+.om-logo .logo {
+	margin-bottom: 0;
+	width: 48px;
+}
+
+/* Nav - Sidebar - Middle */
+.om-main-menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+/* Nav - Sidebar - Middle - Main Menu */
+.om-header.om-header-sidebar .om-main-menu {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Nav - Sidebar - Middle - Menu Items */
+.om-main-menu .menu-item {
+	position: relative;
+	margin: 15px 0;
+}
+
+.om-main-menu .menu-item a {
+	text-decoration: none;
+	color: #7f8c8d;
+	transition: ease-in-out 0.2s;
+}
+
+.om-main-menu .menu-item a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Nav - Sidebar - Bottom - Socials */
+.om-header.om-header-sidebar .om-header-bot>div:not(:last-child) {
+	margin-bottom: 33px;
+}
+
+.om-socials {
+	margin-left: -3px;
+	margin-right: -3px;
+}
+
+.om-header.om-header-sidebar.uk-light .om-socials a {
+	color: #fff;
+}
+
+.om-socials a {
+	display: inline-block;
+	margin: 0 3px;
+	color: #999;
+}
+
+.om-socials.om-socials-mini a>i {
+	width: 16px;
+	height: auto;
+	line-height: 16px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+	transition: ease-in-out 0.2s;
+}
+
+.om-socials i:hover {
+	color: #7f8c8d;
+}
+
+/* Content */
+
+/* Main Container */
+.om-header.om-header-sidebar~.main-container {
+	margin-left: 270px;
+}
+
+body>.header-container,
+body>.main-container {
+	transition: opacity 0.5s ease-in-out;
+}
+
+/* Isotope */
+.om-isotope-conatainer,
+.isotope-container {
+	overflow: hidden;
+}
+
+.om-element {
+	position: relative;
+}
+
+/* Portfolio */
+.om-portfolio .uk-grid-medium {
+	margin-bottom: -30px;
+}
+
+.om-portfolio .uk-grid-medium .portfolio-items {
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 0;
+}
+
+.om-portfolio .portfolio-img,
+.om-portfolio .portfolio-inner {
+	display: inline-block
+}
+
+.om-image-hover {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
